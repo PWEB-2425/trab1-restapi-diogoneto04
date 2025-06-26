@@ -4,7 +4,6 @@ const alunoCtrl = require('../controllers/alunoController');
 
 router.get('/', alunoCtrl.listar);
 router.post('/', alunoCtrl.criar);
-<<<<<<< HEAD
 router.put('/:id', alunoCtrl.atualizar); // <- aqui tem que ser atualizar
 router.delete('/:id', alunoCtrl.apagar);
 
@@ -94,8 +93,6 @@ router.put('/:id', alunoCtrl.atualizar);
  *       200:
  *         description: Aluno apagado
  */
-=======
->>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
 router.delete('/:id', alunoCtrl.apagar);
 
 module.exports = router;

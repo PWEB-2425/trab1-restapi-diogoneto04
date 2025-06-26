@@ -14,7 +14,6 @@ Consolidar os conhecimentos em desenvolvimento web com foco na criação, consum
 
 O projeto simula o ciclo completo de desenvolvimento de uma aplicação web com front-end e back-end separados, incluindo testes e deploy.
 
-<<<<<<< HEAD
 Dados do Aluno
 
 - **Nome:** Diogo Neto  
@@ -51,8 +50,7 @@ projeto-raiz/
 ├── README.md         ← Instruções, links e documentação
 └── .gitignore, etc.
 
-=======
->>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
+
 ---
 
 ## Partes do Trabalho
@@ -132,25 +130,6 @@ projeto-raiz/
 
 ---
 
-<<<<<<< HEAD
-
-=======
-## Organização do Projeto
-
-```text
-projeto-raiz/
-│
-├── /frontend/ ← Interface web (HTML/CSS/JS)
-├── /backend/ ← API RESTful com Node.js + MongoDB
-├── /mock-server/ ← JSON-server configurado
-├── /mock-data/ ← Base de dados JSON original
-├── /tests/ ← Coleção de testes Postman
-├── README.md ← Instruções, links e notas
-└── .gitignore, etc.
-```
-
----
->>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
 
 ## Sugestão de Branches
 
@@ -187,13 +166,3 @@ projeto-raiz/
   - README.md com instruções claras
   - Links de deploy (front e opcionalmente back)
 
-<<<<<<< HEAD
-=======
----
-
-### Repositório Base
-
-Usa o repositório template inicial fornecido no GitHub Classroom.
-# TWT1RESTAPI
-# TRAB1_TEMPLATE
->>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474

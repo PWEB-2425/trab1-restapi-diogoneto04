@@ -6,7 +6,6 @@ exports.listar = async (req, res) => {
 };
 
 exports.criar = async (req, res) => {
-<<<<<<< HEAD
   const aluno = new Aluno(req.body);
   await aluno.save();
   res.status(201).json(aluno);
@@ -37,14 +36,3 @@ exports.apagar = async (req, res) => {
   }
   res.json({ mensagem: 'Aluno apagado com sucesso' });
 };
-=======
-  const novo = new Aluno(req.body);
-  await novo.save();
-  res.status(201).json(novo);
-};
-
-exports.apagar = async (req, res) => {
-  await Aluno.findByIdAndDelete(req.params.id);
-  res.status(204).end();
-};
->>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
