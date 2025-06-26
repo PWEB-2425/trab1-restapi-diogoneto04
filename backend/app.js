@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 const swaggerDocs = require('./docs/swagger');
+=======
+>>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -12,6 +15,7 @@ app.use(express.json());
 const alunoRoutes = require('./routes/alunoRoutes');
 app.use('/alunos', alunoRoutes);
 
+<<<<<<< HEAD
 // Swagger (vem depois das rotas para documentar)
 swaggerDocs(app);
 
@@ -24,3 +28,12 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Servidor a correr na porta ${PORT}`);
 });
+=======
+const PORT = process.env.PORT || 3001;
+
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => {
+    app.listen(PORT, () => console.log(`Servidor a correr na porta ${PORT}`));
+  })
+  .catch(err => console.log(err));
+>>>>>>> 7bbfe3c9c6c78e4c9b474ad6fb1b7b892021d474
